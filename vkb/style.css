@@ -5,6 +5,13 @@
 	max-width: 800px;
 	margin:auto;
 	padding:20px;
+	visibility: hidden;
+}
+.container.visible {
+	visibility: visible;	
+}
+.container.visible .bnt {
+	transition:0.5s;	
 }
 .btns {
 	background: lightgrey;
@@ -33,7 +40,6 @@
 	min-width: 40px;
 	text-align: center;
 	cursor: pointer;
-	transition:0.5s;
 }
 .btn:hover {
 	background:blue;

@@ -127,6 +127,8 @@ class Keyboard {
 		this.btns['ArrowUp'].element.style.width=this.btns['ArrowDown'].element.clientWidth+"px";
 		this.btns['ArrowUp'].element.style.flexGrow=0;
 
+		this.dom.container.classList.add('visible');
+
 		document.addEventListener('keydown',(e)=>{
 			if (this.btns[e.code]) {
 				this.btns[e.code].keyDown(e);
