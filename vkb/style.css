@@ -10,7 +10,7 @@
 .container.visible {
 	visibility: visible;	
 }
-.container.visible .bnt {
+.container.visible .btn {
 	transition:0.5s;	
 }
 .btns {
